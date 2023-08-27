@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: #F9f9f2;
+}
+
+.container p{
+    color: #609966;
+    font-size: 2rem;
+}
+.container h2{
+    color: #212121;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container form{
+        width: 80%;
+    margin-left: 12%;
+}
+.container .btn:hover{
+    color: #212121;
+    background-color:#F29727 ;
+}
+.card{
+    border-radius: 15px;
+}
+.container .row .card .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .row .card .header .icon i{
+    color: #8CC0DE;
+}
+.container .row .card .header .best{
+    background-color: #FEFF86;
+    color: #F29727;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.card .card-body .card-title{
+    font-size: 1rem;
+    color:#606C5D ;
+    opacity: .5;
+}
+.card .card-body  .text{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .card-body .img {
+    display: flex;
+    align-items: center;
+}
+.card .card-body .img img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.card .card-body .img .name{
+    color: #212121;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.card .card-body .img .session{
+        color: #212121;
+        font-size: 15px;
+        opacity: .5;
+    margin-top: 10px;
+}
+.card .footer{
+    justify-content: space-between;
+}
+
+.card .footer .new{
+font-size: 20px; 
+font-weight: bold;
+}
+.card .footer .old{
+color: #212121;
+font-size: 15px; 
+}
+.card .footer p span{
+    opacity: .5;
+}
+.card .footer .rat{
+    color: #212121;
+font-size: 15px; 
+}
+.card .footer .rat i{
+    font-size: 14px;
+    padding: 4px;
+    color: #FFC436;
+}
+
+.footer .container{
+    background-color:#fff;
+    border-radius: 20px;
+    padding-left: 4rem;
+}
+
+.footer .container h3{
+    color: #609966;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+.footer .container h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .container p{
+    font-size: 1rem;
+    color: #212121;
+}
